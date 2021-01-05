@@ -1,0 +1,120 @@
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*elementos base*/
+body {
+    background: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: white;
+    max-width: 100%;
+}
+
+header .container{
+    display: inline-flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black';
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-left: 15px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+header .busca{
+    margin-left: 6px;
+}
+
+/*filme principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/grey3.jpg);
+    
+    height: 100%;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.filme-principal .greys-anatomy {
+    font-size: 35px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin-top: 15%;
+}
+.botao {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    font-size: 12pxS;
+
+    cursor: pointer;
+    transition: .4s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 30px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+.box-filmes{
+    height: 220px;
+    width:30px;
+    cursor: pointer;
+}
+
+
+
+.filmes {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+
+}
+
+.titulo{
+    padding: 10px 16px;
+}
+
